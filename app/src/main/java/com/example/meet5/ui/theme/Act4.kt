@@ -91,4 +91,9 @@ fun FormDataDiri(modifier: Modifier){  //var utk inget value input keyboard
                 jenis = textJK
                 alamat = textAlamat
             }
-        )
+        ) {
+            Text("Simpan")
+        }
+        HorizontalDivider(
+            modifier = Modifier.padding(
+                bottom =
