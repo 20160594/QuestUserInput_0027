@@ -97,3 +97,7 @@ fun FormDataDiri(modifier: Modifier){  //var utk inget value input keyboard
         HorizontalDivider(
             modifier = Modifier.padding(
                 bottom =
+                    dimensionResource(id = R.dimen.padding_medium),
+                top = dimensionResource(
+                    id = R.dimen.padding_medium
+                )
