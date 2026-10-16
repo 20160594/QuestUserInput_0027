@@ -52,3 +52,13 @@ fun FormDataDiri(modifier: Modifier){  //var utk inget value input keyboard
                 textNama = it
             }
         )
+
+        Row {
+            gender.forEach { item ->
+                Row(
+                    modifier = Modifier.selectable(
+                        selected = textJK == item,
+                        onClick = { textJK = item }
+                    ),
+                    verticalAlignment = Alignment.CenterVertically
+                ) {
