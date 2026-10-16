@@ -38,3 +38,7 @@ fun FormDataDiri(modifier: Modifier){  //var utk inget value input keyboard
     var alamat by remember { mutableStateOf("") }
     var jenis by remember { mutableStateOf("") }
     val gender:List<String> = listOf("Laki-laki","Perempuan")
+
+    Column(modifier = Modifier.padding(top = 50.dp),
+        verticalArrangement = Arrangement.Top,
+        horizontalAlignment = Alignment.CenterHorizontally) {
