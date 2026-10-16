@@ -112,4 +112,5 @@ fun FormDataDiri(modifier: Modifier){  //var utk inget value input keyboard
                 .height(100.dp)
                 .width(300.dp)
         ) {
-            Column(modifier = Modifier.padding(horizontal = 5.dp, vertical = 15.dp),)
+            Column(modifier = Modifier.padding(horizontal = 5.dp, vertical = 15.dp),){
+                Text(text = "Nama : " + nama, color = Color.White)
