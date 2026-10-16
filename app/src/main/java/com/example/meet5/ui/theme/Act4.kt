@@ -66,3 +66,18 @@ fun FormDataDiri(modifier: Modifier){  //var utk inget value input keyboard
                         selected = textJK == item,
                         onClick = { textJK = item }
                     )
+                    Text(item)
+                }
+            }
+        }
+
+        OutlinedTextField(
+            value = textNama,
+            singleLine = true,
+            shape = MaterialTheme.shapes.large,
+            modifier = Modifier.width(250.dp),
+            label = { Text(text = "Nama Lengkap") },
+            onValueChange = {
+                textAlamat = it
+            }
+        )
