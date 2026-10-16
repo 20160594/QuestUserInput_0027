@@ -86,3 +86,9 @@ fun FormDataDiri(modifier: Modifier){  //var utk inget value input keyboard
             enabled = textNama.isNotEmpty() &&
                     textJK.isNotEmpty() &&
                     textAlamat.isNotEmpty(),
+            onClick = {
+                nama = textNama
+                jenis = textJK
+                alamat = textAlamat
+            }
+        )
