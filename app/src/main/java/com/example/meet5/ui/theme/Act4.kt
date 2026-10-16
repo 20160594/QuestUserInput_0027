@@ -81,3 +81,8 @@ fun FormDataDiri(modifier: Modifier){  //var utk inget value input keyboard
                 textAlamat = it
             }
         )
+        Button(
+            modifier = Modifier.fillMaxWidth(fraction = 0.5f),
+            enabled = textNama.isNotEmpty() &&
+                    textJK.isNotEmpty() &&
+                    textAlamat.isNotEmpty(),
