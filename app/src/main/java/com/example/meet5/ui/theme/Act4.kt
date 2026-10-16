@@ -104,3 +104,6 @@ fun FormDataDiri(modifier: Modifier){  //var utk inget value input keyboard
             ),
             thickness = dimensionResource(id = R.dimen.divider_tipis),
             color = Color.DarkGray
+        )
+        ElevatedCard(
+            elevation = CardDefaults.cardElevation(defaultElevation = 10.dp),
